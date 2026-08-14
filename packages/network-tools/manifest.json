@@ -1,0 +1,22 @@
+{
+  "name": "network-tools",
+  "version": "1.0.0",
+  "description": "Network utilities for WebKernel",
+  "type": "terminal",
+  "runtime": "typescript",
+  "entry": "network-tools.ts",
+  "files": [
+    "network-tools.ts"
+  ],
+  "permissions": [
+    "network"
+  ],
+  "commands": [
+    "netinfo",
+    "ping"
+  ],
+  "webkernel": {
+    "minVersion": "1.0.0",
+    "apiVersion": "1"
+  }
+}

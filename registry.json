@@ -1,0 +1,22 @@
+{
+  "name": "Wail Official Repository",
+  "version": "1.0.0",
+  "apiVersion": "1",
+  "packages": {
+    "network-tools": {
+      "type": "package",
+      "version": "1.0.0",
+      "manifest": "packages/network-tools/manifest.json"
+    },
+    "dark.css": {
+      "type": "file",
+      "path": "packages/dark/dark.css",
+      "version": "1.0.0"
+    },
+    "terminal.js": {
+      "type": "file",
+      "path": "packages/terminal/terminal.js",
+      "version": "1.0.0"
+    }
+  }
+}

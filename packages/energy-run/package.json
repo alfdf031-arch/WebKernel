@@ -1,0 +1,19 @@
+{
+  "name": "webkernel-energy-run",
+  "version": "1.0.0",
+  "description": "3D game for WebKernel OS",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx vite"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "cannon-es": "^0.20.0",
+    "nipplejs": "^0.10.2"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "serve": "^14.2.4"
+  }
+}
